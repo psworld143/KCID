@@ -1,0 +1,165 @@
+
+body {
+    background-color: var(--secondary-color);
+    color: var(--text-dark);
+}
+
+/* Main Content */
+.main-content {
+    background-color: var(--secondary-color);
+}
+
+/* Header */
+.header {
+    background-color: var(--white);
+    box-shadow: var(--shadow);
+}
+
+#menu-toggle {
+    color: var(--primary-color);
+}
+
+#menu-toggle:hover {
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: var(--primary-color);
+}
+
+.sidebar .logo {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar .nav-links li a {
+    color: var(--white);
+}
+
+.sidebar .nav-links li:not(.active):hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar .nav-links li.active {
+    background-color: var(--accent-color);
+}
+
+/* Cards and Containers */
+.card, .table-container, .content-header {
+    background-color: var(--white);
+    box-shadow: var(--shadow);
+}
+
+/* Buttons */
+.add-user-btn, .add-school-btn, .add-district-btn {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+.action-btn.reset-password {
+   color: #ffb703;
+}
+
+.add-user-btn:hover, .add-school-btn:hover, .add-district-btn:hover {
+    background-color: var(--accent-color);
+}
+
+/* Action Buttons */
+.action-btn.edit {
+    color: var(--primary-color);
+}
+
+.action-btn.view {
+    color: var(--accent-color);
+}
+
+.action-btn.delete {
+    color: var(--accent-color);
+}
+
+/* Pagination */
+.pagination-btn.active {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-color: var(--primary-color);
+}
+
+.pagination-btn:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Stats Cards */
+.card-icon.blue {
+    background-color: var(--primary-color);
+}
+
+.card-icon.red {
+    background-color: var(--accent-color);
+}
+
+/* Quick Actions */
+.action-button {
+    background-color: var(--secondary-color);
+    color: var(--text-dark);
+}
+
+.action-button:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+/* System Status */
+.status-item {
+    background-color: var(--secondary-color);
+}
+
+.status-icon.blue {
+    background-color: var(--primary-color);
+}
+
+.status-icon.red {
+    background-color: var(--accent-color);
+}
+
+/* Modal */
+.modal-content {
+    background-color: var(--white);
+}
+
+.modal-header {
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.header-content i {
+    color: var(--primary-color);
+}
+
+.close:hover {
+    color: var(--accent-color);
+}
+
+/* Form Elements */
+.form-group input:focus,
+.form-group select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(102, 155, 188, 0.2);
+}
+
+.submit-btn {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.submit-btn:hover {
+    background-color: var(--accent-color);
+}
+
+.cancel-btn {
+    background-color: var(--secondary-color);
+    color: var(--text-dark);
+}
+
+.cancel-btn:hover {
+    background-color: var(--accent-color);
+    color: var(--white);
+}

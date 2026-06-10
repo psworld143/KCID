@@ -1,0 +1,155 @@
+.section {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    margin-bottom: 32px;
+    padding: 24px 24px 16px 24px;
+}
+.section-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.filter-bar {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+.filter-bar select {
+    padding: 7px 12px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    font-size: 15px;
+}
+.mps-table th, .mps-table td {
+    text-align: center;
+}
+.action-btn.upload { background: #2ecc71; color: #fff; }
+.action-btn.upload:hover { background: #27ae60; }
+.action-btn.edit { background: #f1c40f; color: #fff; }
+.action-btn.edit:hover { background: #d4ac0d; }
+.action-btn.download { background: #3498db; color: #fff; }
+.action-btn.download:hover { background: #217dbb; }
+.status-badge {
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-block;
+}
+.status-submitted { background: #e8f6f3; color: #27ae60; }
+.status-pending { background: #ffecec; color: #e74c3c; }
+.status-late { background: #fff4e5; color: #e67e22; }
+.chart-placeholder {
+    height: 300px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7f8c8d;
+    font-size: 1.1rem;
+}
+.remarks-section textarea {
+    width: 100%;
+    min-height: 80px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.remarks-section .upload-btn {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 18px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.remarks-section .upload-btn:hover {
+    background: #217dbb;
+}
+.template-links a {
+    display: inline-block;
+    margin-right: 18px;
+    margin-bottom: 8px;
+    color: #3498db;
+    font-weight: 600;
+    text-decoration: none;
+}
+.template-links a i {
+    margin-right: 6px;
+}
+.modal-content .form-group {
+    margin-bottom: 18px;
+}
+.modal-content label {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 6px;
+    display: block;
+}
+.modal-content select {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    font-size: 15px;
+}
+.modal-content .form-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.modal-content .cancel-btn {
+    background: #95a5a6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 18px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.modal-content .cancel-btn:hover {
+    background: #7f8c8d;
+}
+.modal-content .submit-btn {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 18px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.modal-content .submit-btn:hover {
+    background: #217dbb;
+}
+.remarks-container {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.remarks-content {
+    color: #333;
+    line-height: 1.6;
+}
+.remarks-content p {
+    margin-bottom: 12px;
+}
+.remarks-content p:last-child {
+    margin-bottom: 0;
+}
+.remarks-content strong {
+    color: #2c3e50;
+}

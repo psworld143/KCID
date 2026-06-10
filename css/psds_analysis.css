@@ -1,0 +1,120 @@
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.page-header h1 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin: 0;
+}
+.filter-section {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.filter-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.filter-group label {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    font-weight: 600;
+}
+.filter-select {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #2c3e50;
+    background: #f8f9fa;
+}
+.filter-select:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+.chart-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.chart-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    padding: 20px;
+}
+.chart-card h2 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.chart-container {
+    position: relative;
+    height: 300px;
+}
+.performance-summary {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+.summary-card {
+    padding: 15px;
+    border-radius: 8px;
+    background: #f8f9fa;
+}
+.summary-card h3 {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-bottom: 8px;
+}
+.summary-card .value {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+.summary-card .trend {
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+.trend-up {
+    color: #27ae60;
+}
+.trend-down {
+    color: #e74c3c;
+}
+@media (max-width: 768px) {
+    .filter-grid {
+        grid-template-columns: 1fr;
+    }
+    .chart-section {
+        grid-template-columns: 1fr;
+    }
+    .page-header {
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+    }
+}

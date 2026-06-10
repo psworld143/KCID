@@ -1,0 +1,178 @@
+body {
+    background: #f3f3f3;
+    color: #232323;
+}
+.main-content {
+    background: #f3f3f3;
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.page-header h1 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin: 0;
+}
+.interventions-table-container {
+    background: #232323;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+    padding: 0 0 20px 0;
+}
+table.interventions-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: #232323;
+    color: #f3f3f3;
+    font-size: 1rem;
+}
+.interventions-table th, .interventions-table td {
+    padding: 16px 12px;
+    text-align: left;
+}
+.interventions-table th {
+    background: #232323;
+    color: #fff;
+    font-weight: 600;
+    border-bottom: 1.5px solid #333;
+}
+.interventions-table td {
+    border-bottom: 1px solid #333;
+}
+.interventions-table tr:last-child td {
+    border-bottom: none;
+}
+.status-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.status-bad {
+    background: #e74c3c;
+}
+.status-good {
+    background: #2ecc71;
+}
+.status-warning {
+    background: #f1c40f;
+}
+.remarks-cell {
+    white-space: pre-line;
+}
+@media (max-width: 900px) {
+    .interventions-table th, .interventions-table td {
+        padding: 10px 6px;
+        font-size: 0.95rem;
+    }
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.page-header h1 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin: 0;
+}
+.filter-section {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.filter-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.filter-group label {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    font-weight: 600;
+}
+.filter-select {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #2c3e50;
+    background: #f8f9fa;
+}
+.filter-select:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+.reports-table {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    overflow: hidden;
+}
+    .page-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .page-header h1 {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            margin: 0;
+        }
+        .filter-section {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .filter-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .filter-group label {
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            font-weight: 600;
+        }
+        .filter-select {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            color: #2c3e50;
+            background: #f8f9fa;
+        }
+        .filter-select:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+        }
+        .reports-table {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
